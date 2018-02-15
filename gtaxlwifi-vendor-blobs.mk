@@ -107,6 +107,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libstainkiller.so:system/lib/libstainkiller.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libstr_preview_core.so:system/libstr_preview_core.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libstr_preview_interface.so:system/lib/libstr_preview_interface.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libstr_capture_core.so:system/lib/libstr_capture_core.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libstr_capture_interface.so:system/lib/libstr_capture_interface.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
@@ -129,7 +133,45 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/gtaxlwifi/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
-    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so 
+    vendor/samsung/gtaxlwifi/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libarac.so:system/lib/libarac.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    vendor/samsung/gtaxlwifi/proprietary/etc/somxreg.conf:system/etc/somxreg.conf
 
     #PRODUCT_COPY_FILES += \
 #    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
