@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
+    vendor/samsung/gtaxlwifi/proprietary/lib/libprotobuf-cpp-N.so:system/lib/libprotobuf-cpp-N.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/gtaxlwifi/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
@@ -173,8 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtaxlwifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/gtaxlwifi/proprietary/etc/somxreg.conf:system/etc/somxreg.conf
 
-    #PRODUCT_COPY_FILES += \
-#    vendor/samsung/gtaxllte/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
+PRODUCT_COPY_FILES += \
+    vendor/samsung/gtaxlwifi/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon
 
 #PRODUCT_COPY_FILES += \
 #    vendor/samsung/gtaxllte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
